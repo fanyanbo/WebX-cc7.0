@@ -1,0 +1,734 @@
+[
+	{
+		"category": "常见问题",
+		"data": [
+			{
+				"name": "购买会员后无法登录",
+				"quesId": "B6",
+				"answer": [
+					{
+						"detail": "1、更新账户中心和影视教育；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+						"img": "images/help/question/1-2-1.jpg"
+					}, {
+						"detail": "2、然后重启电视；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "3、开机后如电视再次提示登录激活完成登录去激活，未收到提示进入会员购买页面会再次提示登录完成激活；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "4、进会员中心-点登录，完成登录；",
+						"img": "images/help/question/2-5-1.jpg"
+					}
+				],
+				"related": [[1,4],[1,1]]
+			}, {
+				"name": "购买了会员还是看不了",
+				"quesId": "B2",
+				"answer": [
+					{
+						"detail": "核实电视当前登录的账号是否是购买时登录的账号<br/>1、请确认您播放的内容对应会员内容；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "2、更新账户中心和影视教育，更新后请断电重启；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+						"img": "images/help/question/1-2-1.jpg"
+					}, {
+						"detail": "3、已是最新版本，请先断电重启电视；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "4、重启后，还未解决，请退出重新登录尝试；",
+						"img": "images/help/question/1-0-0.png"
+					}
+				],
+				"related": [[1,4],[1,5]]
+			}, {
+				"name": "影片播放中频繁缓冲",
+				"quesId": "A4",
+				"answer": [
+					{
+						"detail": "1、断电重启您的电视再尝试；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "2、更新影视教育和系统；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+						"img": "images/help/question/1-2-1.jpg"
+					}, {
+						"detail": "3、在主页向上进入工具栏-电视管家-网络测速，测速下网络，根据网络测速推荐结果切换清晰度观看；",
+						"img": "images/help/question/1-4-1.jpg"
+					}, {
+						"detail": "4、恢复出厂设置；",
+						"img": "images/help/question/1-3-2.jpg"
+					}
+				],
+				"related": [[0,5],[0,2]]
+			}, {
+				"name": "使用遥控器操作卡顿",
+				"quesId": "E3",
+				"answer": [
+					{
+						"detail": "1、卸载不常用应用，应用安装越多，流畅度相对变慢；",
+						"img": "images/help/question/5-3-1.jpg"
+					}, {
+						"detail": "2、长期用遥控器关机，未给电视断电，建议不使用时拔掉电视电源；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "3、在主页界面，连按两次主页/开始键，进人任务管理-选【一键加速】，提示速度；",
+						"img": "images/help/question/5-3-2.png"
+					}, {
+						"detail": "4、在设置-通用设置-恢复出厂设置；",
+						"img": "images/help/question/1-3-2.jpg"
+					}
+				],
+				"related": [[4,4],[4,5]]
+			}, {
+				"name": "网络连接失败",
+				"quesId": "E2",
+				"answer": [
+					{
+						"detail": "连接不上网络，建议进行以下操作：<br/>1、检查家里的网络是否畅通。",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "2、确保家庭无线名称不含有空格、中文字符。",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "3、尽量使密码不少于8位。",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "4、尝试使用有线网络连接。",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "5、如每次开机都需要手动连接网络，建议进行升级或者刷机处理。",
+						"img": "images/help/question/1-0-0.png"
+					}
+				],
+				"related": [[4,0],[4,4]]
+			}, {
+				"name": "在线升级注意事项",
+				"quesId": "E1",
+				"answer": [
+					{
+						"detail": "系统升级主要优化老版本的问题，<br/>1、升级系统时不要断电；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "2、升级时间大约需要10分钟左右，请您耐心等待；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "3、升级后请您将电视断电关机后重新开机使用；",
+						"img": "images/help/question/1-0-0.png"
+					}, {
+						"detail": "4.如升级失败或升级后出现故障请直接拨打客服电话咨询",
+						"img": "images/help/question/1-0-0.png"
+					}
+				],
+				"related": [[4,4],[4,8]]
+			}
+		]
+	}, {
+		"category": "全部问题",
+		"category2": [[
+				{
+					"name": "如何判断自己电视视频源",
+					"quesId": "A1",
+					"answer": [
+						{
+							"detail": "查看位置最新主页或影视中心页面左上角；<br/>1、NEW TV代表—腾讯源     GITV代表—爱奇艺源",
+							"img": "images/help/question/1-1-1.jpg"
+						}, {
+							"detail": "2、除腾讯及爱奇艺视频外，我们还引进了4K花园内容和教育，后期会引进 更多优质内容供您观看；",
+							"img": "images/help/question/1-1-2.jpg"
+						}
+					],
+					"related": [[1,0],[1,5]]
+				}, {
+					"name": "个别影片播放遇到问题",
+					"quesId": "A2",
+					"answer": [
+						{
+							"detail": "1、更新影视教育和系统版本；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "2、搜索该影片或从其他地方找到该片播放尝试；",
+							"img": "images/help/question/1-2-2.png"
+						}, {
+							"detail": "3、重启电视尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[0,2],[0,6]]
+				}, {
+					"name": "所有影片一直在缓冲或播放失败",
+					"quesId": "A3",
+					"answer": [
+						{
+							"detail": "1、将电视断电关机后重新开机尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、切换网络（可尝试手机热点）；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、检测其他网络功能能否正常使用，如下载第三方视频应用能否播放）；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、在应用搜索处搜索【影视-教育】，更新您的影视教育后重试；",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "5、在设置-系统升级查看是否有新系统可更新；",
+							"img": "images/help/question/1-3-1.jpg"
+						}, {
+							"detail": "6、在设置-通用设置-恢复出厂设置；",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[0,1],[0,5]]
+				}, {
+					"name": "影片播放中频繁缓冲",
+					"quesId": "A4",
+					"answer": [
+						{
+							"detail": "1、断电重启您的电视再尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、更新影视教育和系统；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "3、在主页向上进入工具栏-电视管家-网络测速，测速下网络，根据网络测速推荐结果切换清晰度观看；",
+							"img": "images/help/question/1-4-1.jpg"
+						}, {
+							"detail": "4、恢复出厂设置；",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[0,5],[0,2]]
+				}, {
+					"name": "声音或图像不正常",
+					"quesId": "A5",
+					"answer": [
+						{
+							"detail": "如是播放自带影视声音小，建议调大音量或多播几部影视，若是第三方应用声音小，建议自行调大音量或将电视升级。",
+							"img": "images/help/question/1-3-1.jpg"
+						}, {
+							"detail": "颜色显示不正常，可能和硬件或系统版本有关，建议联系售后上门为你处理。<br/>售后电话:95105555",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[0,5],[0,6]]
+				}, {
+					"name": "播放画面卡顿、掉帧（非缓冲）、音画不同步",
+					"quesId": "A6",
+					"answer": [
+						{
+							"detail": "1、重启您的电视；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、更新影视教育和系统版本；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "3、切换清晰度观看；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[0,6],[0,3]]
+				}, {
+					"name": "播放中黑屏或有图无声音",
+					"quesId": "A7",
+					"answer": [
+						{
+							"detail": "1、更新影视教育和酷开系统版本；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "2、恢复出厂设置；",
+							"img": "images/help/question/1-3-2.jpg"
+						}, {
+							"detail": "3、断电重启；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[0,4],[0,5]]
+				}, {
+					"name": "播放提示“该账号已登录，请在其他设备退出登录”",
+					"quesId": "A8",
+					"answer": [
+						{
+							"detail": "1、退出其他设备上账号，同一会员账号同时只能在线一台电视；",
+							"img": "images/help/question/1-8-1.jpg"
+						}, {
+							"detail": "2、不知道账号再哪台电视上登录，请通过以下方法找回账号：<br/>①、更新影视教育和酷开系统版本；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "②、已是最新版本，在播放VIP影片时，根据电视上的提示，重新验证登录找回自己的账号，让其他电视上的账号掉线；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[2,1],[2,3]]
+				}, {
+					"name": "历史记录异常：点击无反应，内容不匹配",
+					"quesId": "A9",
+					"answer": [
+						{
+							"detail": "1、播放记录保存在账号上，麻烦确定账号是否在线；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、已登录账号，请更新影视教育；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "3、断电重启您的电视；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[0,2],[0,7]]
+				}
+			],[
+				{
+					"name": "影视会员有哪些，会员种类／权益",
+					"quesId": "B1",
+					"answer": [
+						{
+							"detail": "1、酷开合作影视内容提供方有爱奇艺(GITV)、腾讯(ICNTV)、互联八方。他们除了会员内容，还提供单点内容。",
+							"img": "images/help/question/2-1-1.png"
+						}, {
+							"detail": "2、此外腾讯源电视还提供鼎级剧场（美剧专场）会员和体育会员。",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "因此不是成为会员后全部影视均可观看。",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[0,0],[1,6]]
+				}, {
+					"name": "购买了会员还是看不了",
+					"quesId": "B2",
+					"answer": [
+						{
+							"detail": "核实电视当前登录的账号是否是购买时登录的账号<br/>1、请确认您播放的内容对应会员内容；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、更新账户中心和影视教育，更新后请断电重启；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "3、已是最新版本，请先断电重启电视；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、重启后，还未解决，请退出重新登录尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[1,4],[1,5]]
+				}, {
+					"name": "手机扫描登录/支付二维码，提示找不到网页/404等",
+					"quesId": "B3",
+					"answer": [
+						{
+							"detail": "1、更新账户中心；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "2、断电重启电视",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、电视端重新调出新的二维码扫描尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、关闭手机WIFI，尝试用手机4G流量扫描尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[1,4],[1,5]]
+				}, {
+					"name": "怎么关闭自动续费",
+					"quesId": "B4",
+					"answer": [
+						{
+							"detail": "您可以在[账号与支付]里面选择[支付管理]，关闭自动续费和免密支付。",
+							"img": "images/help/question/2-4-1.jpg"
+						}, {
+							"detail": "也可以在微信或者支付宝的[支付管理]上取消掉对我司的免密支付授权。",
+							"img": "images/help/question/2-4-2.png"
+						}
+					],
+					"related": [[1,4],[1,5]]
+				}, {
+					"name": "购买会员激活失败或开通延时",
+					"quesId": "B5",
+					"answer": [
+						{
+							"detail": "1、更新账户中心和影视教育，更新后请断电重启；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "2、已是最新版本，请先断电重启电视；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、重启后，还未解决，在尝试登录激活；",
+							"img": "images/help/question/2-5-1.jpg"
+						}
+					],
+					"related": [[1,1],[1,5]]
+				}, {
+					"name": "购买会员后无法登录",
+					"quesId": "B6",
+					"answer": [
+						{
+							"detail": "1、更新账户中心和影视教育；（应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新）",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "2、然后重启电视；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、开机后如电视再次提示登录激活完成登录去激活，未收到提示进入会员购买页面会再次提示登录完成激活；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、进会员中心-点登录，完成登录；",
+							"img": "images/help/question/2-5-1.jpg"
+						}
+					],
+					"related": [[1,4],[1,1]]
+				}, {
+					"name": "如何领取手机爱奇艺黄金会员",
+					"quesId": "B7",
+					"answer": [
+						{
+							"detail": "爱奇艺手机黄金VIP是电视源为GITV的专属福利。无论你是通过会员领取、卡密激活、在线购买，只要电视端会员成功获取之后即可在奇异果中心—0元领取获得该福利。",
+							"img": "images/help/question/2-5-1.jpg"
+						}
+					],
+					"related": [[0,0],[1,0]]
+				}
+			],[
+				{
+					"name": "如何注册酷开账号",
+					"quesId": "C1",
+					"answer": [
+						{
+							"detail": "1、注册酷开账号需用手机号注册，你可以在电视上[账号与支付]—注册中输入手机号码注册，也可以登录酷开官网进行注册。",
+							"img": "images/help/question/3-1-1.png"
+						}
+					],
+					"related": [[2,1],[2,3]]
+				}, {
+					"name": "忘记/不知道 自己的会员账号密码",
+					"quesId": "C2",
+					"answer": [
+						{
+							"detail": "1、在会员购买页面查看是否有会员期限（一般在左/右上角），如有会员期限表示已登录正确的账号，无显示表示会员账号未登录或登录错误；",
+							"img": "images/help/question/3-2-1.png"
+						}, {
+							"detail": "2、已登录正确账号，请退出重新登录；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、不知道账号，请在会员中心-退出登录—重新登录，根据历史登录账号，一一尝试；",
+							"img": "images/help/question/2-5-1.jpg"
+						}, {
+							"detail": "4、无历史账号登录记录，请使用您和您的家人手机/QQ/微信一一登录尝试；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[2,0],[2,3]]
+				}, {
+					"name": "播放提示“该账号已登录，请在其他设备退出登录”",
+					"quesId": "C3",
+					"answer": [
+						{
+							"detail": "1、退出其他设备上账号，同一会员账号同时只能在线一台电视；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、不知道账号再哪台电视上登录，请通过以下方法找回账号：<br/>①、要求影视教育和账户版本为最新版本（低版本无法不支持此功能吗，应用-应用搜索-搜索影视教育和账户中心，如是更新按钮更新即可，如是打开按钮，表示已经是最新））",
+							"img": "images/help/question/1-2-1.jpg"
+						}, {
+							"detail": "②、已是最新版本，在播放VIP影片时，根据电视上的提示，重新验证登录找回自己的账号，让其他电视上的账号掉线；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[2,0],[2,3]]
+				}, {
+					"name": "怎么退出账号登陆，怎样更改酷开账号",
+					"quesId": "C4",
+					"answer": [
+						{
+							"detail": "1、可在[账号与支付]中退出原来的账号，之后重新登录即可。<br/>注、会员是与账号绑定的，目前还无法实现会员转移。",
+							"img": "images/help/question/1-8-1.jpg"
+						}
+					],
+					"related": [[2,0],[2,1]]
+				}
+			],[
+				{
+					"name": "无法进入应用圈",
+					"quesId": "D1",
+					"answer": [
+						{
+							"detail": "1、无法进入我的应用，建议你对电视“恢复出厂设置同时不保留应用”",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[3,1],[3,2]]
+				}, {
+					"name": "应用下载失败",
+					"quesId": "D2",
+					"answer": [
+						{
+							"detail": "1、请检查电视的网络功能正常，如播放影视试下；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、电视连接手机分享的WIFI热点尝试，如热点正常，表示您家网络暂时无法连接应用圈服务器，请联系运营商或其他时间尝试使用；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、更新应用圈；",
+							"img": "images/help/question/4-2-1.png"
+						}, {
+							"detail": "4、在设置-通用设置-恢复出厂设置；",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[3,2],[3,3]]
+				}, {
+					"name": "在线安装应用提示失败",
+					"quesId": "D3",
+					"answer": [
+						{
+							"detail": "1、确保剩余空间大于100M，空间不足请卸载其他应用；",
+							"img": "images/help/question/4-3-1.jpg"
+						}, {
+							"detail": "2、确认安装路径；（仅带SD卡槽的型号支持）",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、其他应用是否安装成功；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、在设置-通用设置-恢复出厂设置；",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[3,1],[3,3]]
+				}, {
+					"name": "第三方应用安装与更新",
+					"quesId": "D4",
+					"answer": [
+						{
+							"detail": "根据广电的政策，为了保障电视安全，目前应用圈是禁止应用自行升级的。",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[3,1],[3,2]]
+				}, {
+					"name": "直播应用相关问题",
+					"quesId": "D5",
+					"answer": [
+						{
+							"detail": "直播类应用属于广电管制应用，应用圈不提供类似应用。",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[3,1],[3,3]]
+				}
+			],[
+				{
+					"name": "在线升级注意事项",
+					"quesId": "E1",
+					"answer": [
+						{
+							"detail": "1、系统升级主要优化老版本的问题，<br/>1、升级系统时不要断电；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、升级时间大约需要10分钟左右，请您耐心等待；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、升级后请您将电视断电关机后重新开机使用；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、如升级失败或升级后出现故障请直接拨打客服电话咨询<br/>客服电话95105555",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[4,4],[4,8]]
+				}, {
+					"name": "网络连接失败",
+					"quesId": "E2",
+					"answer": [
+						{
+							"detail": "连接不上网络，建议进行以下操作：<br/>1、检查家里的网络是否畅通。【下】键调出影视详情页界面，选择【清晰度】，调节清晰度即可。",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、确保家庭无线名称不含有空格、中文字符。",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、尽量使密码不少于8位。",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、尝试使用有线网络连接。",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "5、如每次开机都需要手动连接网络，建议进行升级或者刷机处理。",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[4,0],[4,4]]
+				}, {
+					"name": "使用遥控器操作卡顿",
+					"quesId": "E3",
+					"answer": [
+						{
+							"detail": "1、卸载不常用应用，应用安装越多，流畅度相对变慢；",
+							"img": "images/help/question/5-3-1.jpg"
+						}, {
+							"detail": "2、长期用遥控器关机，未给电视断电，建议不使用时拔掉电视电源；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、长期用遥控器关机，未给电视断电，建议不使用时拔掉电视电源；",
+							"img": "images/help/question/5-3-2.png"
+						}, {
+							"detail": "2、长期用遥控器关机，未给电视断电，建议不使用时拔掉电视电源；",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[4,4],[4,5]]
+				}, {
+					"name": "如何切换信号源",
+					"quesId": "E4",
+					"answer": [
+						{
+							"detail": "1、信号源在首页—[信号源]中切换即可。如不知道切换至哪一个信号源，建议每一个都尝试一下。",
+							"img": "images/help/question/5-4-1.png"
+						}, {
+							"detail": "2、开机显示无信号是由于开机后检测到外部信号来源，建议在设置—通用设置—开机启动中设置启动到主页即可。",
+							"img": "images/help/question/5-4-2.png"
+						}
+					],
+					"related": [[3,1],[3,6]]
+				}, {
+					"name": "恢复出厂设置",
+					"quesId": "E5",
+					"answer": [
+						{
+							"detail": "恢复出厂设置是将电视所有设置、参数恢复到电视默认值。恢复出厂设置不会清除掉电视已安装的应用，除非是在恢复时选择了不保留本机应用（在设置-通用设置-恢复出厂设置）",
+							"img": "images/help/question/1-3-2.jpg"
+						}
+					],
+					"related": [[4,0],[4,8]]
+				}, {
+					"name": "外接蓝牙设备",
+					"quesId": "E6",
+					"answer": [
+						{
+							"detail": "1、蓝牙功能并非每台电视都有，建议在[网络与连接]中查看是否有蓝牙功能。找到蓝牙功能后选择打开或关闭即可。",
+							"img": "images/help/question/5-6-1.jpg"
+						}, {
+							"detail": "2、建议在打开电视蓝牙功能之前，就先将蓝牙设备打开或同时打开。如之前连接过现在无法配对，则取消连接重新配对即可。",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、目前蓝牙只支持蓝牙音箱、蓝牙耳机、蓝牙键鼠、蓝牙手柄。在[网络与连接]中打开蓝牙后搜索到设备，点击配对即可。",
+							"img": "images/help/question/5-6-2.png"
+						}
+					],
+					"related": [[4,2],[4,0]]
+				}, {
+					"name": "插上U盘无连接",
+					"quesId": "E7",
+					"answer": [
+						{
+							"detail": "1、插上U盘后，电视首页一般会有U盘标志。可以在本地媒体中打开U盘，随后选择你需要观看的视频打开即可。",
+							"img": "images/help/question/5-7-1.png"
+						}, {
+							"detail": "2、电视一般支持FAT32格式的U盘或硬盘，当电视识别不到U盘时，建议检查一下U盘格式。",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[4,0],[4,4]]
+				}, {
+					"name": "如何使用共享热点",
+					"quesId": "E8",
+					"answer": [
+						{
+							"detail": "目前大部分电视都支持热点功能，但需要电视连接有线时才支持。",
+							"img": "images/help/question/5-8-1.png"
+						}
+					],
+					"related": [[4,0],[4,2]]
+				}, {
+					"name": "电视卡在开机画面或开机后主页无法呼出（非遥控器问题）",
+					"quesId": "E9",
+					"answer": [
+						{
+							"detail": "1、找到电视上的待机按键，无待机键找到确定/返回键；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "2、长按电视上待机键或确定/返回键，给电视通电，等屏幕亮起再松手（约10s），一般屏幕会进入recovery界面；",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "3、如成功进入recovery界面，屏幕上会出现三个选项：  使用U盘或SD卡升级      清除所有数据        重启电视",
+							"img": "images/help/question/1-0-0.png"
+						}, {
+							"detail": "4、先【清除所有数据】，然后选重启电视看是否解决您的问题；",
+							"img": "images/help/question/1-0-0.png"
+						}
+					],
+					"related": [[4,0],[4,4]]
+				}
+			]
+		]
+	}, {
+		"category": "意见反馈",
+		"data": [
+			{
+				"name": "影视播放",
+				"title": "请选择在内容播放途中遇到的问题",
+				"situation": [
+					"影视加载失败",
+					"画面卡顿／闪退",
+					"声音画面不匹配",
+					"跳集或重复播放",
+					"历史记录无反应或内容不匹配",
+					"无法播放"
+				]
+			}, {
+				"name": "网络问题",
+				"title": "请选择在内容播放途中遇到的问题",
+				"situation": [
+					"网络卡顿",
+					"经常断开连接",
+					"无法连接无线网络",
+					"无法连有线网络"
+				]
+			}, {
+				"name": "会员账户",
+				"title": "请选择在内容播放途中遇到的问题",
+				"situation": [
+					"会员掉线",
+					"会员权益未生效",
+					"会员过期无提醒",
+					"无法登陆",
+					"手机会员无法领取",
+					"会员卡密激活失败"
+				]
+			}, {
+				"name": "应用中心",
+				"title": "请选择在内容播放途中遇到的问题",
+				"situation": [
+					"应用无法安装",
+					"应用无法下载",
+					"U盘安装应用失败",
+					"第三方应用会员问题"
+				]
+			}, {
+				"name": "系统设置",
+				"title": "请选择在内容播放途中遇到的问题",
+				"situation": [
+					"界面切换卡顿",
+					"卡死／闪退／崩溃",
+					"无法切换信号源",
+					"无法连接蓝牙设备",
+					"无法识别U盘",
+					"升级后出现异常",
+					"蓝牙无法连接",
+					"遥控器不响应",
+					"遥控器操作卡顿",
+					"语音不能使用"
+				]
+			}, {
+				"name": "其他问题及意见反馈",
+				"title": "请选择在内容播放途中遇到的问题",
+				"situation": [
+					"闪退",
+					"加载不出来",
+					"重复播放",
+					"加载不出来"
+				]
+			}
+		]
+	}
+]

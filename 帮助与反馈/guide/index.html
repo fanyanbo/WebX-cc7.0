@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="format-detection" content="telephone=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title>探索发现</title>
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+		</script>
+	</head>
+
+	<body>
+		<div id="deviceready" class="fullScreen">
+			<div id="mainPage" class="fullScreen">
+				<div id="Title1">探索发现</div>
+				<div id="Title2">你可能也会喜欢的一些使用小技巧</div>
+				<div id="mainOptionBox" class="mainOptionstyle1">
+					<ul id="mainOptionUl" class="optionUl">
+						<li class="paras leftDiv" id="theFirst">
+							<div id="partOne" class="coocaa_btn optionenum"></div>
+						</li>
+						<li class="paras" id="theSecond">
+							<div id="partTwo" class="coocaa_btn optionenum" rightTarget="#partTwo"></div>
+						</li>
+						<li class="paras leftDiv">
+							<div id="partThree" class="coocaa_btn optionenum" downTarget="#partThree"></div>
+						</li>
+						<li class="paras">
+							<div id="partFour" class="coocaa_btn optionenum" downTarget="#partFour"></div>
+						</li>
+						<li class="paras">
+							<div id="partFive" class="coocaa_btn optionenum" rightTarget="#partFive" downTarget="#partFive"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="secondPage" class="fullScreen">
+				<div id="partOnePage" class="fullScreen partPages">
+					<div id="partOneBox" class="fullScreen2">
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle"><strong>轮播频道</strong></div>
+								<div class="mainDetail">在“精选”页面，打开“轮播频道”播放窗口，【确定】键可以查看详情及推荐，【上下】键可以换频道，【菜单】键可以调出节目列表</div>
+							</div>
+							<img id="part1_1" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助?</div>
+							<div id="button111" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button121" leftTarget="#button111">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button112" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button121" rightTarget="#button112">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle"><strong>会员成长</strong></div>
+								<div class="mainDetail">在“我的”页面，登录个人信息后，找到“成长秘籍”，了解成长和积分规则，达到等级可以获得对应福利</div>
+							</div>
+							<img id="part1_2" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助?</div>
+							<div id="button121" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button131" upTarget="#button111" leftTarget="#button121">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button122" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button131" upTarget="#button111" rightTarget="#button122">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">全局搜索</div>
+								<div class="mainDetail">在【搜索】页面，输⼊关键词首字母，可以搜索到所有分类下的对应内容</div>
+							</div>
+							<img id="part1_3" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助?</div>
+							<div id="button131" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button141" upTarget="#button121" leftTarget="#button131">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button132" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button141" upTarget="#button121" rightTarget="#button132">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">帮助与反馈</div>
+								<div class="mainDetail">在“我的”页面，向下翻到“学习与反馈”，打开“帮助与反馈”，可获得常见问题解答，还可以反馈意见和建议</div>
+							</div>
+							<img id="part1_4" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助?</div>
+							<div id="button141" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button141" upTarget="#button131" leftTarget="#button141">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button142" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button142" upTarget="#button131" rightTarget="#button142">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightListBox">
+						<ul class="rightListUl">
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+						</ul>
+					</div>
+					<div class="upIcon"></div>
+					<div class="downIcon"></div>
+				</div>
+				<div id="partTwoPage" class="fullScreen partPages">
+					<div id="partTwoBox" class="fullScreen2">
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">遥控器-信号源键</div>
+								<div class="mainDetail">按下遥控器上【信号源】键，可快速切换信号源，并调出“工具箱”，包含常用应用、设置、帮助反馈等功能</div>
+							</div>
+							<img id="part2_1" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button211" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button221" leftTarget="#button211">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button212" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button221" rightTarget="#button212">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">遥控器-一键直达键</div>
+								<div class="mainDetail">按下遥控器上【<strong style="color: red; font-size: 24px; margin-right: 2px;">○</strong><strong style="color: green; font-size: 24px; margin-right: 2px;">○</strong><strong style="color: blue; font-size: 24px;">○</strong>】任一键，在“一键直达”设置页面中选择需要一键直达的功能</div>
+								<div class="remakeInfo">备注：含“一键直达”功能的遥控器适用</div>
+							</div>
+							<img id="part2_2" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button221" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button231" upTarget="#button211" leftTarget="#button221">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button222" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button231" upTarget="#button211" rightTarget="#button222">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">电视派遥控</div>
+								<div class="mainDetail">扫描二维码下载“电视派”APP，当手机和电视处于同一网络时，进入app，可使用app进行遥控电视等操作</div>
+							</div>
+							<img id="part2_3" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button231" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button241" upTarget="#button221" leftTarget="#button231">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button232" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button241" upTarget="#button221" rightTarget="#button232">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">语音遥控-遥控器语音</div>
+								<div class="mainDetail">按住遥控器【语音】键，对着遥控器说话</div>
+								<div class="remakeInfo">备注：有语音功能的遥控器及机型适用</div>
+							</div>
+							<img id="part2_4" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button241" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button251" upTarget="#button231" leftTarget="#button241">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button242" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button251" upTarget="#button231" rightTarget="#button242">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">语音遥控-电视派语音</div>
+								<div class="mainDetail">在电视派APP中，轻点【遥控器】，按住【语音】，对着手机说话</div>
+							</div>
+							<img id="part2_5" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button251" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button261" upTarget="#button241" leftTarget="#button251">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button252" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button261" upTarget="#button241" rightTarget="#button252">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">语音遥控-远场语音</div>
+								<div class="mainDetail">对着电视说“小维小维”，唤醒电视远场语音，继续对着电视说话</div>
+								<div class="remakeInfo">备注：有远场语音功能的机型适用</div>
+							</div>
+							<img id="part2_6" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button261" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button271" upTarget="#button251" leftTarget="#button261">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button262" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button271" upTarget="#button251" rightTarget="#button262">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">电视键控板</div>
+								<div class="mainDetail">长按电视背面“待机键”，调出电视键控界面，短按--移动，长按--确定</div>
+								<div class="remakeInfo">备注：部分机型适用</div>
+							</div>
+							<img id="part2_7" class="conImg" src=""/>
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button271" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button271" upTarget="#button261" leftTarget="#button271">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button272" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button272" upTarget="#button261" rightTarget="#button272">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightListBox">
+						<ul class="rightListUl">
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+						</ul>
+					</div>
+					<div class="upIcon"></div>
+					<div class="downIcon"></div>
+				</div>
+				<div id="partThreePage" class="fullScreen partPages">
+					<div id="partThreeBox" class="fullScreen2">
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">小维AI</div>
+								<div class="mainDetail">确认已安装“小维AI”应用，通过语音遥控方式与电视对话</div>
+							</div>
+							<img id="part3_1" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button311" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button321" leftTarget="#button311">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button312" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button321" rightTarget="#button312">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">AI待机</div>
+								<div class="mainDetail">确认已安装“小维AI”应用，且通用设置里“AI待机”状态为“开”，待机后，通过语音方式与电视对话</div>
+								<div class="remakeInfo">备注：有AI待机功能的机型适用</div>
+							</div>
+							<img id="part3_2" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button321" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button331" upTarget="#button311" leftTarget="#button321">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button322" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button332" upTarget="#button311" rightTarget="#button322">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightListBox">
+						<ul class="rightListUl">
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+						</ul>
+					</div>
+					<div class="upIcon"></div>
+					<div class="downIcon"></div>
+				</div>
+				<div id="partFourPage" class="fullScreen partPages">
+					<div id="partFourBox" class="fullScreen2">
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">空间清理</div>
+								<div class="mainDetail">按【信号源】键或在主页按【上】键调出“工具箱”页面，在“常用功能”中进入“电视管家”，选择“空间清理”</div>
+							</div>
+							<img id="part4_1" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button411" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button421" leftTarget="#button411">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button412" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button421" rightTarget="#button412">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">安全扫描</div>
+								<div class="mainDetail">在“电视管家”中选择“安全扫描”</div>
+							</div>
+							<img id="part4_2" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button421" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button431" upTarget="#button411" leftTarget="#button421">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button422" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button432" upTarget="#button411" rightTarget="#button422">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightListBox">
+						<ul class="rightListUl">
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+						</ul>
+					</div>
+					<div class="upIcon"></div>
+					<div class="downIcon"></div>
+				</div>
+				<div id="partFivePage" class="fullScreen partPages">
+					<div id="partFiveBox" class="fullScreen2">
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">定制屏保</div>
+								<div class="mainDetail">按【信号源】键或在主页按【上】键调出“工具箱”页面，在“更多功能”里选择“酷屏保”</div>
+							</div>
+							<img id="part5_1" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button511" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button521" leftTarget="#button511">
+								<div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div>
+							</div>
+							<div id="button512" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button521" rightTarget="#button512">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+						<div class="divPart">
+							<div class="textInfoBox">
+								<div class="mainTitle">应用排序</div>
+								<div class="mainDetail">打开“我的应用”，在“我的”页面，按下【菜单】键，可以置顶常用应用，为应用排序</div>
+							</div>
+							<img id="part5_2" class="conImg" src="" />
+							<div class="conChoice">对我是否有帮助？</div>
+							<div id="button521" class="coocaa_btn2 eachYONBtns eachYesBtns" downTarget="#button531" upTarget="#button511" leftTarget="#button521"><div class="thumb">
+									<img class="imgStatus" src="images/explore/2-4.png"/>
+								</div>
+								<div class="aaaa">是</div></div>
+							<div id="button522" class="coocaa_btn2 eachYONBtns eachNoBtns" downTarget="#button532" upTarget="#button511" rightTarget="#button522">
+								<div class="thumb2">
+									<img class="imgStatus" src="images/explore/2-2.png"/>
+								</div>
+								<div class="bbbb">否</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightListBox">
+						<ul class="rightListUl">
+							<li class="listItem"></li>
+							<li class="listItem"></li>
+						</ul>
+					</div>
+					<div class="upIcon"></div>
+					<div class="downIcon"></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.0.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/framework.js"></script>
+		<script type="text/javascript">
+			setTimeout("otherPageInit()", 100);
+
+			function otherPageInit() {
+				$("#partOne").css("background-image", "url(images/explore/001.jpg)");
+				$("#partTwo").css("background-image", "url(images/explore/002.jpg)");
+				$("#partThree").css("background-image", "url(images/explore/003.jpg)");
+				$("#partFour").css("background-image", "url(images/explore/004.jpg)");
+				$("#partFive").css("background-image", "url(images/explore/005.jpg)");
+				$("#partOnePage").css("background-image", "url(images/explore/bg0.jpg)");
+				$("#partTwoPage").css("background-image", "url(images/explore/bg1.jpg)");
+				$("#partThreePage").css("background-image", "url(images/explore/bg2.jpg)");
+				$("#partFourPage").css("background-image", "url(images/explore/bg3.jpg)");
+				$("#partFivePage").css("background-image", "url(images/explore/bg4.jpg)");
+				
+				$("#part1_1").attr("src","images/explore/part1_1.jpg");
+				$("#part1_2").attr("src","images/explore/part1_2.jpg");
+				$("#part1_3").attr("src","images/explore/part1_3.jpg");
+				$("#part1_4").attr("src","images/explore/part1_4.jpg");
+				
+				$("#part2_1").attr("src","images/explore/part2_1.jpg");
+				$("#part2_2").attr("src","images/explore/part2_2.jpg");
+				$("#part2_3").attr("src","images/explore/part2_3.jpg");
+				$("#part2_4").attr("src","images/explore/part2_4.jpg");
+				$("#part2_5").attr("src","images/explore/part2_5.jpg");
+				$("#part2_6").attr("src","images/explore/part2_6.jpg");
+				$("#part2_7").attr("src","images/explore/part2_7.jpg");
+				
+				$("#part3_1").attr("src","images/explore/part3_1.jpg");
+				$("#part3_2").attr("src","images/explore/part3_2.jpg");
+				
+				$("#part4_1").attr("src","images/explore/part4_1.jpg");
+				$("#part4_2").attr("src","images/explore/part4_2.jpg");
+				
+				$("#part5_1").attr("src","images/explore/part5_1.jpg");
+				$("#part5_2").attr("src","images/explore/part5_2.jpg");
+			}
+		</script>
+	</body>
+
+</html>

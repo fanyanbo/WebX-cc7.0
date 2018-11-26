@@ -1,0 +1,233 @@
+body {
+    -webkit-touch-callout: none;   
+    -webkit-text-size-adjust: none;  
+    -webkit-user-select: none;   
+    background-attachment:fixed;
+    width:1920px;
+    height: 1080px;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerContainer {
+	width: 386px;
+	height: 216px;
+	position: relative;
+	left: 727px;
+	top: 77px;
+	background-image: url(../img/title.png);
+	background-repeat: no-repeat;
+}
+
+.sidebarContainer {
+	position: absolute;
+	width: 600px;
+	height: 864px;
+	float: left;
+}
+
+/*等级图标显示区及特效*/
+.sideLevelIconShowClass 
+{ 
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	margin: auto;
+	top: -125px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#flash
+{ 
+	position: absolute; 
+	width:332px; 
+	height: 332px; 
+	top: 135px; 
+	left: -320px; 
+	/*background-image: url(../img/light.png);*/
+	background-repeat: no-repeat;
+	/*background: -moz-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.5)50%, rgba(255,255,255,0)100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.5)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.5)50%,rgba(255,255,255,0)100%);
+	background: -o-linear-gradidddent(left, rgba(255,255,255,0)0, rgba(255,255,255,.5)50%, rgba(255,255,255,0)100%);
+	-webkit-transform: skewX(-25deg);
+	-moz-transform: skewX(-25deg);*/
+	z-index: -1;
+}
+
+/*.show {
+	-webkit-transform: translateX(640px);	
+	transform: translateX(640px);	
+	-webkit-transition: transform 500ms linear ;
+	transition: transform 500ms linear ;
+}*/
+
+.showAnimateTwo {
+	animation: lightTestTwo 400ms linear forwards;
+	-webkit-animation: lightTestTwo 400ms linear forwards;
+}
+
+@keyframes lightTestTwo{
+	from{transform: none;}
+	to{transform: translateX(800px);}
+}
+
+@-webkit-keyframes  lightTestTwo{
+	from{transform: none;}
+	to{transform: translateX(800px);}
+}
+
+.sideLevelGiftTitle {
+	position: absolute;
+	top: 355px;
+	left: 110px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 40px;
+	font-family: "NotoSansHans-Medium", sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.sideLevelGiftConditionsTitle {
+	position: absolute;
+	top: 425px;
+	left: 110px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 32px;
+	font-family: "NotoSansHans-Medium", sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+.sideLevelGiftConditionsDetails {
+	position: absolute;
+	top: 470px;
+	left: 110px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 28px;
+	font-family: "NotoSansHans-Light", sans-serif;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	overflow: hidden;
+}
+.sideLevelPrivilegeTitle {
+	position: absolute;
+	top: 523px;
+	left: 110px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 32px;
+	font-family: "NotoSansHans-Medium", sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+.sideLevelPrivilegeDetails {
+	position: absolute;
+	top: 568px;
+	left: 110px;
+	width: 420px;
+	line-height: 44px;
+	font-size: 28px;
+	font-family: "NotoSansHans-Light", sans-serif;
+	color: #FFFFFF;
+	text-align: justify;
+	letter-spacing: 0;
+}
+
+.seperatorLine {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 2px;
+	height: 780px;
+	background: url(../img/seperator.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+
+.contentContainer {
+	position: relative;
+	width: 1320px;
+	height: 864px;
+	padding: 20px 0 0 20px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.levelIntro {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	height: 350px;
+}
+
+.levelIcon {
+	background-repeat: no-repeat;
+	background-position: center center; 
+	/*background-size: cover;*/
+	width: 100%;
+	height: 300px;
+}
+
+.levelTitle {
+	position: absolute;
+	top: 280px;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	font-size: 32px;
+	font-family: "NotoSansHans-Light", sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+
+/*等级图标显示区及特效 original*/
+/*.sideLevelIconShowClass 
+{ 
+	width: 200px;
+	height: 200px;
+}
+
+.sideLevelIconShowClass:before 
+{ 
+	content: ""; 
+	position: absolute; 
+	width:50px; 
+	height: 100%; 
+	top: 0; 
+	left: -50px; 
+	overflow: hidden;
+	background: -moz-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.2)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+	background: -o-linear-gradidddent(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+	-webkit-transform: skewX(-25deg);
+	-moz-transform: skewX(-25deg)
+}
+
+.sideLevelIconShowClass[class~=btn-focus]:before 
+{ 
+	left: 150%; 
+	transition: left 1s ease 0s; 
+}*/
+
+.btn-focus{
+	-webkit-transform: scale(1.35);
+	transform: scale(1.35);
+	-webkit-transition: transform .1s;
+	transition: transform .1s;
+}

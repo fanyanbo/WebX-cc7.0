@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/index1.css"/>
+		<title>玩转会员攻略</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				outline: 0;
+			}
+			
+			body {
+				position: absolute;
+				width: 1920px;
+				height: 1080px;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-color: rgba(16,16,16,0.96);
+			}
+			
+			img[src=''] {
+				visibility: hidden;
+			}
+			
+			.fullScreen {
+				position: absolute;
+				width: 1920px;
+				height: 1080px;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				overflow: hidden;
+			}
+			
+			#public {
+				position: absolute;
+				width: 1920px;
+				height: 1080px;
+				top: 0;
+				left: 0;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background-image: url(images/goodpaly.webp);
+			}
+		</style>
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+		</script>
+	</head>
+
+	<body>
+		<div id="deviceready" class="fullScreen">
+			<div id="public"></div>
+		</div>	
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.0.js"></script>
+	</body>
+</html>

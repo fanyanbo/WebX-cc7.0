@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" href="css/index.css" />
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+			
+//			var _czc = _czc || [];
+//			_czc.push(["_setAccount", "1275001386"]);
+		</script>
+	
+	<title>全部VIP特权</title>
+	</head>
+	
+	<body>
+		<div id="deviceready">
+			<!--标题页-->
+			<div class="headerContainer"></div>
+			
+			<!--左侧栏-->
+			<div class="sidebarContainer">
+				<div class="sideLevelIconShowClass">
+					<div id="flash"></div>
+				</div>
+				<div class="sideLevelGiftTitle">等级礼包</div>
+				<div class="sideLevelGiftConditionsTitle">获得条件:</div>
+				<div class="sideLevelGiftConditionsDetails"></div>
+				<div class="sideLevelPrivilegeTitle">权益说明:</div>
+				<div class="sideLevelPrivilegeDetails"></div>
+				<div class="seperatorLine"></div>
+			</div>
+			
+			<!--内容区-->
+			<div class="contentContainer">
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon0" rightTarget="#Icon1" downTarget="#Icon4"></div>
+					<div class="levelTitle"></div>
+				</div>
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon1" leftTarget="#Icon0" rightTarget="#Icon2" downTarget="#Icon5"></div>
+					<div class="levelTitle"></div>
+				</div>
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon2" leftTarget="#Icon1" rightTarget="#Icon3" downTarget="#Icon6"></div>
+					<div class="levelTitle"></div>
+				</div>
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon3" leftTarget="#Icon2" rightTarget="#Icon4" downTarget="#Icon6"></div>
+					<div class="levelTitle"></div>
+				</div>
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon4" leftTarget="#Icon3" rightTarget="#Icon5" upTarget="#Icon0"></div>
+					<div class="levelTitle"></div>
+				</div>
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon5" leftTarget="#Icon4" rightTarget="#Icon6" upTarget="#Icon1"></div>
+					<div class="levelTitle"></div>
+				</div>
+				<div class="levelIntro">
+					<div class="levelIcon coocaa_btn" id="Icon6" leftTarget="#Icon5" rightTarget="#Icon0" upTarget="#Icon2"></div>
+					<div class="levelTitle"></div>
+				</div>
+
+				
+			</div>
+			
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.1.js"></script>
+        <script type="text/javascript" src="js/getstart.js"></script>
+		<!--<script type="text/javascript">
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1275001386'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275001386' type='text/javascript'%3E%3C/script%3E"));
+	    </script>-->
+        
+    </body>
+    
+</html>

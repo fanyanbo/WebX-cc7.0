@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" href="css/index.css" />
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+			
+//			var _czc = _czc || [];
+//			_czc.push(["_setAccount", "1275001386"]);
+		</script>
+	
+	<title>教育VIP会员</title>
+	</head>
+	
+	<body>
+		<div id="deviceready">
+			<!--标题页-->
+			<div class="header">
+				<div id="headerTitle">教育VIP会员</div>
+				<div id="userinfo">
+					<div id="userIcon"></div>
+					<div id="userLv"></div>
+					<div id="coinIcon"></div>
+					<div id="coinNum">1</div>
+				</div>
+				<div id="notLoginId" class="notLogin" downTarget="#vipEntry1">立即登录</div>
+			</div>
+			
+			<!--内容页-->
+			<div id="containerId" class="container">
+				<div class="innerContainer">
+					<!--VIP类型列表,根据后台个数动态调整-->
+					<div class="vipEntryZone">
+						<div class="vipEntry coocaa_btn" id="vipEntry1" upTarget="#notLoginId" downTarget="#vipPrivilegeId">
+							<div class="vipEntryValidity">
+								<div class="vipEntrySubscribe">立即查看</div>
+								<div class="vipEntryTimeTip"></div>
+							</div>
+							<div class="vipEntryIcon"></div>
+							<div class="vipEntryTitle">教育超级VIP</div>
+							<div class="vipEntryDescription">快速开通全年龄段教育VIP</div>
+						</div>
+						<div class="vipEntry coocaa_btn" id="vipEntry2" upTarget="#notLoginId" downTarget="#vipPrivilegeId">
+							<div class="vipEntryValidity">
+								<div class="vipEntrySubscribe">立即查看</div>
+								<div class="vipEntryTimeTip"></div>
+							</div>
+							<div class="vipEntryIcon"></div>
+							<div class="vipEntryTitle">教育分年龄VIP</div>
+							<div class="vipEntryDescription">选择开通任意年龄段教育VIP</div>
+						</div>						
+					</div>
+
+					<!-- VIP权益标题-->
+					<div id="vipPrivilegeId" class="sectionTitle coocaa_btn">VIP权益</div> 
+					<!-- VIP权益图片，根据腾讯源、爱奇艺源动态切换-->
+					<div class="vipPrivilegeDetails"></div>
+
+					<div id="vf1" class="VirtualFocus1 coocaa_btn"></div>
+
+				</div>
+			</div>
+			<!--加载失败提示页-->
+			<div class="failToast"></div>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.1.js"></script>
+        <script type="text/javascript" src="js/getstart.js"></script>
+		<!--<script type="text/javascript">
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1275001386'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275001386' type='text/javascript'%3E%3C/script%3E"));
+	    </script>-->
+        
+    </body>
+    
+</html>

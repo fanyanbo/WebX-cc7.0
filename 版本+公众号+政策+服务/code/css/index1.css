@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+body {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images/bg.png);
+}
+
+img[src=''] {
+	visibility: hidden;
+}
+
+.fullScreen {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+#public {
+	position: absolute;
+	width: 1440px;
+	height: 676px;
+	top: 202px;
+	left: 240px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url(../images/public.png);
+}

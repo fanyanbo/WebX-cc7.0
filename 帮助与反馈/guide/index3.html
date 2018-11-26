@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/index2.css" />
+		<title>帮助与反馈</title>
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+		</script>
+	</head>
+
+	<body>
+		<div id="deviceready" class="fullScreen">
+			<div id="mainPage" class="fullScreen">
+				<div id="tabsBox">
+					<div class="tabItem coocaa_btn" id="commonQuesTab" leftTarget="#commonQuesTab">
+						常见问题
+						<div id="line1" class="line"></div>
+					</div>
+					<div class="tabItem coocaa_btn" id="allQuesTab" downTarget="#allQuesP1">
+						全部问题
+						<div id="line2" class="line"></div>
+					</div>
+					<div class="tabItem coocaa_btn" id="feedBackTab" downTarget="#feedBack1" rightTarget="#feedBackTab">
+						意见反馈
+						<div id="line3" class="line"></div>
+					</div>
+				</div>
+				<div id="contentBox">
+					<!--常见问题列表-->
+					<div id="conItem1" class="conItems"></div>
+					<!--所有问题分类-->
+					<div id="conItem2" class="conItems">
+						<div id="conItem2Box">
+							<div class="coocaa_btn allQues" id="allQuesP1" upTarget="#allQuesTab">
+								<div class="allImg">
+									<img class="imgBlur" src="images/help/play.png" />
+									<img class="imgFocus" src="images/help/play2.png" />
+								</div>
+								<div class="allText1">影视播放</div>
+							</div>
+							<div class="coocaa_btn allQues" id="allQuesP2" upTarget="#allQuesTab">
+								<div class="allImg">
+									<img class="imgBlur" src="images/help/vip.png" />
+									<img class="imgFocus" src="images/help/vip2.png" />
+								</div>
+								<div class="allText1">会员与支付</div>
+							</div>
+							<div class="coocaa_btn allQues" id="allQuesP3" upTarget="#allQuesTab">
+								<div class="allImg">
+									<img class="imgBlur" src="images/help/count.png" />
+									<img class="imgFocus" src="images/help/count2.png" />
+								</div>
+								<div class="allText1">酷开账号</div>
+							</div>
+							<div class="coocaa_btn allQues" id="allQuesP4" upTarget="#allQuesTab">
+								<div class="allImg">
+									<img class="imgBlur" src="images/help/download.png" />
+									<img class="imgFocus" src="images/help/download2.png" />
+								</div>
+								<div class="allText1">应用下载与安装</div>
+							</div>
+							<div class="coocaa_btn allQues" id="allQuesP5" upTarget="#allQuesTab" rightTarget="#allQuesP5">
+								<div class="allImg">
+									<img class="imgBlur" src="images/help/setting.png" />
+									<img class="imgFocus" src="images/help/setting2.png" />
+								</div>
+								<div class="allText1">系统设置</div>
+							</div>
+						</div>
+					</div>
+					<!--意见反馈分类-->
+					<div id="conItem3" class="conItems">
+						<div id="feedBack1" class="coocaa_btn feedBacks" upTarget="#feedBackTab">
+							<div class="feedImg">
+								<img class="imgBlur" src="images/help/play.png" />
+								<img class="imgFocus" src="images/help/play2.png" />
+							</div>
+							<div class="feedText">影视播放</div>
+						</div>
+						<div id="feedBack2" class="coocaa_btn feedBacks" upTarget="#feedBackTab">
+							<div class="feedImg">
+								<img class="imgBlur" src="images/help/net.png" />
+								<img class="imgFocus" src="images/help/net2.png" />
+							</div>
+							<div class="feedText">网络问题</div>
+						</div>
+						<div id="feedBack3" class="coocaa_btn feedBacks" upTarget="#feedBackTab">
+							<div class="feedImg">
+								<img class="imgBlur" src="images/help/vip.png" />
+								<img class="imgFocus" src="images/help/vip2.png" />
+							</div>
+							<div class="feedText">会员账户</div>
+						</div>
+						<div id="feedBack4" class="coocaa_btn feedBacks">
+							<div class="feedImg">
+								<img class="imgBlur" src="images/help/appstore.png" />
+								<img class="imgFocus" src="images/help/appstore2.png" />
+							</div>
+							<div class="feedText">应用中心</div>
+						</div>
+						<div id="feedBack5" class="coocaa_btn feedBacks">
+							<div class="feedImg">
+								<img class="imgBlur" src="images/help/setting.png" />
+								<img class="imgFocus" src="images/help/setting2.png" />
+							</div>
+							<div class="feedText">系统设置</div>
+						</div>
+						<div id="feedBack6" class="coocaa_btn feedBacks">
+							<div class="feedImg">
+								<img class="imgBlur" src="images/help/other.png" />
+								<img class="imgFocus" src="images/help/other2.png" />
+							</div>
+							<div class="feedText">其他问题及意见反馈</div>
+						</div>
+					</div>
+				</div>
+				<div id="customer0" class="customers">客服电话：400-168-8880</div>
+			</div>
+			<div id="secondPage" class="fullScreen">
+				<!--具体问题的模板页concrete-->
+				<div id="conAnsPage" class="fullScreen none">
+					<div id="conAnsBox">
+						<div id="conAnsTitle" class="ellipsis"></div>
+						<div id="changeBox1"></div>
+						<div id="fixedBox2">
+							<div id="submitItem1" class="submitItem">问题是否解决?</div>
+							<div id="submitItem2" class="coocaa_btn3 submitItem conAnsItem">
+								<div class="aaaa">已解决</div>
+								<div class="thumb">
+									<img id="thumbone" class="imgStatus" src="images/help/2-4.png"/>
+								</div>
+							</div>
+							<div id="submitItem3" class="coocaa_btn3 submitItem conAnsItem">
+								<div class="aaaa">未解决</div>
+								<div class="thumb2">
+									<img id="thumbtwo" class="imgStatus" src="images/help/2-2.png"/>
+								</div>
+							</div>
+							<div id="submitItem4" class="submitItem">相关问题</div>
+							<div id="submitItem5" class="coocaa_btn3 submitItem conAnsItem" downTarget="#submitItem6"></div>
+							<div id="submitItem6" class="coocaa_btn3 submitItem conAnsItem"></div>
+							<div id="submitItem7" class="coocaa_btn3 submitItem conAnsItem">其他问题及意见反馈</div>
+						</div>
+					</div>
+					<div id="conAnsPoint">【向下】浏览全文</div>
+				</div>
+				<!--所有问题列表页-->
+				<div id="allQuesPage" class="fullScreen none">
+					<div id="quesListTitle" class="ellipsis">影视播放</div>
+					<div id="quesListBox"></div>
+					<div id="otherQuesFeed" class="coocaa_btn3">其他问题反馈</div>
+				</div>
+				<!--意见反馈详情页-->
+				<div id="feedBackPage" class="fullScreen none">
+					<div id="feedBackTitle" class="ellipsis"></div>
+					<div id="feedBackBox">
+						<div id="feedBackTitle2">请选择在内容播放途中遇到的问题</div>
+						<div id="errorInfo">请选择您遇到的问题</div>
+						<div id="feedBackListBox"></div>
+						<div id="contactWay">联系方式</div>
+						<input id="phoneOrQQ" class="coocaa_btn2" placeholder="电话、QQ  选填，便于我们与您联系" value="" />
+						<div id="keyBox">
+							<div class="coocaa_btn2 numbtn">1</div>
+							<div class="coocaa_btn2 numbtn">2</div>
+							<div class="coocaa_btn2 numbtn">3</div>
+							<div class="coocaa_btn2 numbtn">4</div>
+							<div class="coocaa_btn2 numbtn">5</div>
+							<div class="coocaa_btn2 numbtn">6</div>
+							<div class="coocaa_btn2 numbtn">7</div>
+							<div class="coocaa_btn2 numbtn">8</div>
+							<div class="coocaa_btn2 numbtn">9</div>
+							<div class="coocaa_btn2 numbtn com event_button" id="sub_mobile" bt-name="next_button">确定</div>
+							<div class="coocaa_btn2 numbtn">0</div>
+							<div class="coocaa_btn2 numbtn del">删除</div>
+						</div>
+						<div id="fbSubmit" class="coocaa_btn2">提交问题反馈</div>
+					</div>
+					<div id="fbQrcodeBox">
+						<div id="qrcodeInfo">扫码填写具体问题</div>
+						<div id="fbQrcode"></div>
+					</div>
+					<div id="customer1" class="customers">客服电话：400-168-8880</div>
+				</div>
+				<!--其他异常及意见反馈详情页-->
+				<div id="otherFeedBackPage" class="fullScreen none">
+					<div id="otherFBTitle" class="ellipsis">其他异常及意见反馈</div>
+					<div id="otherQrcodeBox" class="coocaa_btn2">
+						<div id="otherQrcode"></div>
+					</div>
+					<div id="otherFBInfo">请用手机扫码填写其他问题或建议</div>
+					<div id="customer2" class="customers">客服电话：400-168-8880</div>
+				</div>
+			</div>
+			<div id="thirdPage" class="fullScreen">
+				<!--反馈成功，5秒弹窗消失-->
+				<div id="fbResultSuccess" class="coocaa_btn3 fbdialog">
+					<img id="icon1" class="icon" src="images/help/success.png"/>
+					<div id="returnStatus1" class="returnStatus">反馈成功</div>
+					<div id="returnInfo1" class="returnInfo">感谢您对我们的关注与支持，我们会认真处理您的反馈，尽快修复和完善相关功能。</div>
+				</div>
+				<!--反馈失败，20秒弹窗消失-->
+				<div id="fbResultFail" class="coocaa_btn3 fbdialog">
+					<img id="icon2" class="icon" src="images/help/fail.png"/>
+					<div id="returnStatus2" class="returnStatus">反馈无法完成</div>
+					<div id="returnInfo2" class="returnInfo">继续反馈请拨打客服<br/>400-1688880</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.0.js"></script>
+		<script type="text/javascript" src="js/qrcode.js"></script>
+		<script type="text/javascript" src="js/index2.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/framework2.js"></script>
+		
+	</body>
+</html>

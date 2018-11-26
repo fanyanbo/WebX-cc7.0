@@ -1,0 +1,226 @@
+body {
+    -webkit-touch-callout: none;                
+    -webkit-text-size-adjust: none;          
+    -webkit-user-select: none;            
+	background-size: cover;
+    background-attachment:fixed;
+    width:1920px;
+    height: 1080px;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+/*
+ * 标题div
+ */
+.homeTitleDivClass {
+	position: relative;
+	top: 0;
+	left: 87px;
+	width: 1746px;
+	height: 145px;
+	display: inline-block;
+}
+
+.homeTitleHeadClass {
+	position: absolute;
+	top: 43px;
+	left: 0px;
+	width: 192px;
+	height: 48px;
+	font: 48px/72px NotoSansHans-Light,sans-serif;
+	color: rgba(153,153,153,1);
+	letter-spacing: 0;
+}
+
+.homeTitleParaClass {
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	width: 597px;
+	font: 28px/42px NotoSansHans-Light,sans-serif;
+	color: rgba(102,102,102,1);
+	padding-left: 100px;
+	letter-spacing: 0;
+}
+/*
+ * 内容div
+ */
+.homeContentDivClass {
+	position: relative;		
+	margin-left: 50px;
+	padding-left: 22px;
+	overflow: hidden;
+}
+/*
+ * 单个视频组件div
+ */
+.baseDivComponent{
+	position: relative;
+	width: 858px;
+	height: 236px;
+	margin: 15px;
+	float: left;
+	box-sizing: border-box;
+	border: 4px solid transparent;
+	background: rgba(255,255,255,0.06);
+}
+
+.videoPreviewClass {
+	position: relative;
+	width: 405px;
+	height: 228px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgPreviewClass {
+	width: 100%;
+	height: 100%;
+}
+
+.videoTitleClass {
+	position: relative;
+	float: left;	
+	width: 425px;
+	padding-left: 20px;
+	overflow: auto;
+	top: 50%;
+	-webkit-transform:translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.pTitleClass {
+	position: relative;
+	font-family: "NotoSansHans-Light",sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 41px;
+	color: #CCCCCC;
+	letter-spacing: 0;
+	overflow: visible;
+}
+
+.pDurationClass {
+	position: relative;
+	font-family: "NotoSansHans-Light",sans-serif;
+	color: #999999;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0;
+	height: 36px;
+	padding-top: 10px;	
+}
+
+/*网络连接失败提示页*/
+#failToast {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	/*background-image: url(../img/failToast.webp);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+/*
+ * 播放完的显示页面设置
+ */
+.playbackPageClass {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background: rgba(0,0,0,0);
+	/*z-index: 1;*/
+}
+
+.playbackPageClass div {
+	float: left;
+}
+
+.playEndPrompt {
+	position: absolute;
+	top: 350px;
+	left: 815px;
+	height: 73px;
+	width: 292px;
+	font: 73px/110px NotoSansHans-Bold,sans-serif;
+	color: rgba(204,204,204,1);
+	letter-spacing: 0;
+}
+
+.playbackConfirmClass {
+	position: absolute;
+	top: 530px;
+	left: 652px;
+	height: 61px;
+	width: 61px;
+	background: rgba(102,102,102,1);
+	overflow: hidden;
+	background-image: url(../img/confirmicon.png);
+	border-radius: 50%;
+}
+
+.playbackReturnClass {
+	position: absolute;
+	top: 621px;
+	left: 652px;
+	height: 61px;
+	width: 61px;
+	background: rgba(102,102,102,1);
+	overflow: hidden;
+	background-image: url(../img/returnicon.png);
+	border-radius: 50%;
+}
+
+.playbackConfirmToast {
+	position: absolute;
+	top: 521px;
+	left: 738px;
+	width: 506px;
+	height: 48px;
+	color: rgba(204,204,204,1);
+	font: 48px/72px NotoSansHans-Medium,sans-serif;
+	letter-spacing: 0;
+}
+
+.playbackReturnToast {
+	position: absolute;
+	top: 612px;
+	left: 740px;
+	width: 550px;
+	height: 48px;
+	color: rgba(204,204,204,1);
+	font: 48px/72px NotoSansHans-Medium,sans-serif;
+	letter-spacing: 0;	
+}
+
+.btn-focus{
+	-webkit-transform: scale(1.08);
+            transform: scale(1.08);
+    transition: transform 0.2s linear;       
+	border: 4px solid white;
+}
+
+.baseDivComponent[class~=btn-focus] .videoPreviewClass:before{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url("../img/playIcon.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}

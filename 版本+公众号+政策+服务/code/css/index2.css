@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+img[src=''] {
+	visibility: hidden;
+}
+.fullScreen {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+.none{
+	display: none;
+}
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1920px;
+	height: 1080px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: rgba(16,16,16,0.96);
+}
+#pageTitle{
+	position: absolute;
+    top: 50px;
+    left: 87px;
+    height: 48px;
+    width: 208px;
+    font-size: 48px;
+    color: #999999;
+    line-height: 48px;
+}
+#conItem{
+	position: absolute;
+    top: 155px;
+    left: 306px;
+    height: 600px;
+    width: 1300px;
+}
+#conItem .btn-focus{
+	padding: 0;
+	border: 4px solid #FFFFFF;
+}
+.comQuesItem{
+	position: relative;
+	height: 152px;
+	width: 1200px;
+	left: 50px;
+	padding: 4px;
+	margin-bottom: 20px;
+	background-color: rgba(128,128,128,0.18);
+}
+.partIcon{
+	position: relative;
+	display: inline-block;
+	top: 25px;
+    left: 60px;
+    height: 100px;
+    width: 100px;
+}
+.partName{
+	position: relative;
+    display: inline-block;
+    top: -28px;
+    left: 84px;
+    height: 36px;
+    width: 206px;
+    font-size: 36px;
+    color: #CCCCCC;
+}
+.partVersion{
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    left: -125px;
+    height: 28px;
+    width: 530px;
+    line-height: 28px;
+    font-size: 26px;
+    color: #999999;
+}
+.partInfo{
+	position: relative;
+    display: inline-block;
+    top: -7px;
+    left: 0px;
+    height: 32px;
+    width: 257px;
+    font-size: 32px;
+    color: #999999;
+}
+.partInfo2{
+	color: #FD4E00;
+}
+.gotosecond{
+	position: relative;
+    display: inline-block;
+    top: -48px;
+    left: 1115px;
+    height: 32px;
+    width: 257px;
+    font-size: 32px;
+    color: #999999;
+}
+.btn-focus .partName,.btn-focus .partVersion,.btn-focus .partInfo{
+	color: #FFFFFF;
+}
+
+
+#secondPage{
+	display: none;
+}
+.asIcons{
+	position: absolute;
+	top: 160px;
+	left: 260px;
+	height: 144px;
+	width: 144px;
+}
+.asNames{
+	position: absolute;
+	top: 172px;
+	left: 464px;
+	height: 45px;
+	width: 302px;
+	color: #FFFFFF;
+	font-size: 42px;
+}
+.asVersions{
+	position: absolute;
+	top: 243px;
+	left: 464px;
+	height: 37px;
+	width: 530px;
+	color: #CCCCCC;
+	font-size: 36px;
+}
+.transTitle{
+	position: absolute;
+	top: 388px;
+	left: 260px;
+	height: 53px;
+	width: 387px;
+	color: #FFFFFF;
+	font-size: 42px;
+}
+.transInfos{
+	position: absolute;
+    top: 468px;
+    left: 260px;
+    height: 450px;
+    width: 1400px;
+    color: #999999;
+    font-size: 32px;
+    line-height: 50px;
+}

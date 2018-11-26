@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="format-detection" content="telephone=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/index2.css" />
+		<title>版本信息</title>
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+		</script>
+	</head>
+
+	<body>
+		<div id="deviceready" class="fullScreen">
+			<div id="firstPage" class="fullScreen">
+				<div id="pageTitle">版本信息</div>
+				<div id="conItem">
+					<div id="comQues0" status="0" class="coocaa_btn comQuesItem ellipsis btn-focus" readonly="readonly">
+						<img id="firstIcon1" class="partIcon" src="images/movie.png" />
+						<div class="partName">酷开系统</div>
+						<div id="partVersion1" class="partVersion">当前版本：V7.01.98</div>
+						<div id="partInfo1" class="partInfo">当前已是最新版本</div>
+						<div class="gotosecond">></div>
+					</div>
+					<div id="comQues1" status="0" class="coocaa_btn comQuesItem ellipsis" readonly="readonly">
+						<img id="firstIcon2" class="partIcon" src="images/icon.png" />
+						<div class="partName">应用圈</div>
+						<div id="partVersion2" class="partVersion">当前版本：V3.19</div>
+						<div id="partInfo2" class="partInfo">当前已是最新版本</div>
+						<div class="gotosecond">></div>
+					</div>
+					<div id="comQues2" status="0" class="coocaa_btn comQuesItem ellipsis" readonly="readonly">
+						<img id="firstIcon3" class="partIcon" src="images/app.png" />
+						<div class="partName">购物</div>
+						<div id="partVersion3" class="partVersion">当前版本：V3.10.5</div>
+						<div id="partInfo3" class="partInfo">当前已是最新版本</div>
+						<div class="gotosecond">></div>
+					</div>
+				</div>
+			</div>
+			<div id="secondPage" class="fullScreen">
+				<div id="coocaa" class="fullScreen none">
+					<img id="asIcon" class="asIcons" src="images/movie.png"/>
+					<div id="asName" class="coocaa_btn2 asNames">酷开系统</div>
+					<div id="asVersion" class="asVersions">版本号：V7.01.98</div>
+					<div id="versionTrans" class="transTitle">版本更新说明：</div>
+					<div id="transInfo" class="transInfos">1.【主页焕新】：新系统大不同，内容更丰富，界面更友好
+						<br/>2.【会员中心】：会员中心全新上线啦！做任务增加成长值和金币，成长值越高，权益越多；玩游戏赚金币，使用金币可以参加运营活动，还有丰富豪礼等你来兑！
+						<br/>3.【轮播频道】：打开电视即可观看影片，操作简单，内容精彩
+						<br/>4.【全局搜索】：实现全局搜索，在状态栏的搜索，可以搜索影视、教育、应用、明星等，全部内容
+						<br/>5.【多样内容】：新增更多游戏电竞内容
+					</div>
+				</div>
+				<div id="appstore" class="fullScreen none">
+					<img id="asIcon" class="asIcons" src="images/icon.png"/>
+					<div id="asName2" class="coocaa_btn2 asNames">应用圈</div>
+					<div id="asVersion2" class="asVersions">版本号：V3.20.00</div>
+					<div id="versionTrans2" class="transTitle">版本更新说明：</div>
+					<div id="transInfo2" class="transInfos">1.【新增】：新增更多精品应用，需付费下载
+						<br/>2.【新增】：“宽带提速”功能，满足提速条件时付费购买提速会员，可享受家庭宽带提速服务
+						<br/>3.【优化】：已购应用页面优化
+						<br/>4.【优化】：我的应用推荐位可显示动图效果
+						<br/>5.【优化】：我的应用增加“宽带提速”提醒（只在满足宽带提速条件时提示，每周只提示一次）
+						<br/>6.【优化】：“更新管理”中的自动更新，由默认“关”改为默认“开”
+					</div>
+				</div>
+				<div id="mall" class="fullScreen none">
+					<img id="asIcon3" class="asIcons" src="images/app.png"/>
+					<div id="asName3" class="coocaa_btn2 asNames">购物</div>
+					<div id="asVersion3" class="asVersions">版本号：V3.10.05</div>
+					<div id="versionTrans3" class="transTitle">版本更新说明：</div>
+					<div id="transInfo3" class="transInfos">1.【新增】：增加优惠券的去使用事件
+						<br/>2.【新增】：增加用户填写退货物流信息的环节
+						<br/>3.【新增】：多买多折的支持、满减活动、首单立减
+						<br/>4.【优化】：商品列表页、我的优惠券页面优化
+						<br/>5.【优化】：视频播放器优化
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.0.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/framework.js"></script>
+		<script type="text/javascript">
+			map = new coocaakeymap($(".coocaa_btn"), null, "btn-focus", function() {}, function(val) {}, function(obj) {});
+		</script>
+	</body>
+
+</html>

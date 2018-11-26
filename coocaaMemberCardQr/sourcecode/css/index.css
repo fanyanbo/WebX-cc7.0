@@ -1,0 +1,58 @@
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment:fixed;
+    font-size:12px;
+    width:1920px;
+    height: 1080px;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    overflow: hidden;
+}
+
+.title {
+	position: absolute;
+	top: 47px;
+	left: 103px;
+	color: white;
+	font-family: "PingFangSC-Medium",sans-serif;
+	font-size: 45px;
+}
+
+.container {
+	position: absolute;	
+	top: 323px;
+	left: 777px;
+	width: 368px;
+	height: 459px;
+}
+ 
+.prompt {
+	text-align: center;
+	font-family: "PingFangSC-Medium",sans-serif;
+	font-size: 32px;
+	color: white;
+}
+
+.prompt p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.1em;
+}
+
+.qrcode {
+	position: relative;
+	top: 23px;
+	left: 3px;
+	width: 336px;
+	height: 336px;
+	border: 12px solid white;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: contain;
+	overflow: hidden;
+}

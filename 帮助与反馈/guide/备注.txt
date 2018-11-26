@@ -1,0 +1,5 @@
+
+1、index.html   探索发现页（盛瑜岚）
+2、index3.html  帮助与反馈页（陈浩）
+
+{"dowhat":"startActivity","bywhat":"action","byvalue":"coocaa.intent.action.browser","packagename":"com.coocaa.app_browser","appversion":"","params":{"url":"https://webapp.skysrt.com/guide2/index.html"}}

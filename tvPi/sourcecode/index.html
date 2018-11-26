@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<meta charset="UTF-8">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" href="css/index.css" />
+		<script>
+			var adjust = function() {
+				if(/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					var version = parseFloat(RegExp.$1);
+					if(version > 2.3) {
+						var phoneScale = parseInt(window.screen.width) / 1920;
+						document.write('<meta name="viewport" content="width=1920, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+					} else {
+						document.write('<meta name="viewport" content="width=1920, target-densitydpi=device-dpi">');
+					}
+				} else {
+					document.write('<meta name="viewport" content="width=1920, user-scalable=no, target-densitydpi=device-dpi">');
+				}
+			}
+			adjust();
+			
+//			var _czc = _czc || [];
+//			_czc.push(["_setAccount", "1275001386"]);
+		</script>
+	
+	<title>电视派</title>
+	</head>
+	
+	<body>
+		<div id="deviceready">
+			<!-- 左边列表菜单      -->
+			<div class="sideBar">
+				<!-- 左上角logo区        -->
+				<div class="logo">
+					<img src="img/logo.png" />
+					<img src="img/tvpi.png" />
+				</div>
+				<!-- 左列菜单区        -->
+				<div class="menu">
+					<ul>
+						<li class="coocaa_btn menuTitle">极简遥控</li>
+						<li class="coocaa_btn menuTitle">语音控制</li>
+						<li class="coocaa_btn menuTitle">推送视频</li>
+						<li class="coocaa_btn menuTitle">精彩短片</li>						
+					</ul>
+				</div>
+				
+				<!-- 左下角二维码区       -->
+				<div class="qrCode">
+					<!-- 二维码图片       -->				
+					<div id="qrImageId" class="qrImage">
+					</div>
+					<div id="qrIcon">
+					<!-- 二维码中间的logo图片     -->
+					</div>
+					<!-- 提示文字       -->				
+					<div class="qrTip">
+						扫码下载体验
+					</div>
+				</div>				
+			</div>
+			
+			<!-- 内容显示        -->
+			<div id="container" class="content">
+				<div class="section" id="section0"></div>
+				<div class="section" id="section1"></div>
+				<div class="section" id="section2"></div>
+				<div class="section" id="section3"></div>			
+			</div>
+			
+			
+		</div> 
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/qrcode.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/coocaamap-1.1.js"></script>
+        <script type="text/javascript" src="js/getstart.js"></script>
+
+		<script type="text/javascript">
+			//var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			//document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1274870330'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1274870330' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+        
+    </body>
+    
+</html>
